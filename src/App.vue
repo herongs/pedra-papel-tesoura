@@ -164,12 +164,17 @@ const startGame = () => {
     const resultKey = `${playerChoice.value}-${computerChoice.value}`;
     resultado.value = results[resultKey];
 
+    console.log(resultado.value)
+
     if (resultado.value === "Ganhou") {
+      console.log('resultado',playerScore.value)
       playerScore.value = playerScore.value + 1;
     } else if (resultado.value === "Perdeu") {
       playerScore.value = playerScore.value - 1;
+    } else if (resultado.value === "Empate"){
+      playerScore.value = playerScore.value + 0;
     }
-  }
+  } 
 };
 
 const selectPlay = (play) => {
@@ -177,10 +182,6 @@ const selectPlay = (play) => {
 
   if (playerChoice.value) {
     computerChoice.value = Math.floor(Math.random() * 3) + 1;
-
-    if (computerChoice.value == playerChoice.value) {
-      playerScore.value = playerScore.value + 1;
-    }
   }
 
   startGame();
