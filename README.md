@@ -14,12 +14,12 @@ Game desenvolvido a partir de prints do jogo, através da plataforma Front End M
  ![](src/assets/design/tela-inicial.png) 
 
 - `Menu de regras`: Menu de regras do jogo.
-![](images/inputs-novos-itens-novo.png)
+ ![](src/assets/design/regras.png) 
 
 - `Jogue contra o computador`: Jogue contra a máquina e se divirta., 
-![](images/input-edit-itens-novo.png) 
-![](images/itens-deletados-novo.png) 
-![](images/itens-completos-novo.png) 
+ ![](src/assets/design/voce-ganhou.png)
+ ![](src/assets/design/voce-perdeu.png)
+ ![](src/assets/design/empate.png) 
 
  ### 🖥️ Requisitos
  
