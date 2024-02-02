@@ -11,7 +11,7 @@ Game desenvolvido a partir de prints do jogo, através da plataforma Front End M
 ### 📌 Funcionalidades do Projeto
 
 - `Página Inicial`: Página Inicial da Jogo.
- ![](src/assets/design/tela-inicial) 
+ ![](src/assets/design/tela-inicial.png) 
 
 - `Menu de regras`: Menu de regras do jogo.
 ![](images/inputs-novos-itens-novo.png)
